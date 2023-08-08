@@ -1,0 +1,24 @@
+
+g	java:S112?"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8øÉÃ®’1
+r
+java:S2236"PRefactor the synchronisation mechanism to not use a Thread instance as a monitor(”èì˜úÿÿÿÿ8Ü Á®’1
+‚
+java:S2273"`Move this call to "wait()" into a synchronized block to be sure the monitor on "Thread" is held.(”èì˜úÿÿÿÿ8Þ Á®’1
+\
+java:S2274":Remove this call to "wait" or move it into a "while" loop.(”èì˜úÿÿÿÿ8ß Á®’1
+I
+java:S1874",Remove this use of "stop"; it is deprecated.(Áñë›8à Á®’1
+L
+java:S1874"/Remove this use of "suspend"; it is deprecated.(þ‚Áã8á Á®’1
+P
+java:S1874 ".Remove this use of "resume"; it is deprecated.(ÞžË¹þÿÿÿÿ8á Á®’1
+L
+java:S18742"/Remove this use of "suspend"; it is deprecated.(—ªÌ8ÞÁ®’1
+P
+java:S18746".Remove this use of "resume"; it is deprecated.(Ðß„¢þÿÿÿÿ8‘ÞÁ®’1
+{
+java:S2142>"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8™ÊÃ®’1
+Z	java:S106I"9Replace this use of System.out or System.err by a logger.(æ‘ìÞÿÿÿÿÿ8·˜Ã®’1
+Z	java:S106P"9Replace this use of System.out or System.err by a logger.(‚ÞÏ¥ýÿÿÿÿ8»˜Ã®’1
+]	java:S125V"<This block of commented-out lines of code should be removed.(ö»Ýðÿÿÿÿÿ8‘íÅ®’1
+]	java:S125x"<This block of commented-out lines of code should be removed.(ö»Ýðÿÿÿÿÿ8ÀœÆ®’1

@@ -1,0 +1,11 @@
+
+N
+java:S1602",Remove useless curly braces around statement(Β‰ϊµώÿÿÿÿ8ƒΡμ®’1
+b
+java:S1612"@Replace this lambda with method reference 'System.out::println'.(Β‰ϊµώÿÿÿÿ8ϊόν®’1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(†™ρ‹8„Ρμ®’1
+I
+java:S1602",Remove useless curly braces around statement(ΈΡ¦8ωνο®’1
+]
+java:S1612"@Replace this lambda with method reference 'System.out::println'.(ΈΡ¦8ωνο®’1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(µΟ…θωÿÿÿÿ8ωνο®’1

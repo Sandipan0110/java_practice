@@ -1,0 +1,147 @@
+: ARRAYS AND LINKEDLIST NOTE :
+------------------------------
+Q. What is Arrays ?
+A -> An array is a container object that holds a fixed number of values of a single type.
+
+
+Q. What is LinkedList ?
+A -> LinkedList is a Data Structure that Contains Sequence of Elements.
+
+     Type -> 1. Singly linkedList.
+             2. Doubly linkedList.
+             3. Circular linkedList.
+             4. Circular doubly linkedList.
+
+
+Q. What are the Difference Between ArrayList and LinkedList ?
+A -> ArrayList :
+        1. ArrayList internally uses a dynamic array to store the elements.
+        2. ArrayList is better for storing and accessing data.
+        3. Generally, when an ArrayList is initialized, a default capacity of 10 is assigned to the ArrayList.
+
+     LinkedList :
+        1. LinkedList internally uses a doubly linked list to store the elements.
+        2. LinkedList is better for manipulating data.
+        3. There is no case of default capacity in a LinkedList. In LinkedList, an empty list is created when a LinkedList is initialized.
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+****************************************************************************************************************************************************************************
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+: JAVA OOPS CONCEPT NOTE :
+--------------------------
+Q. What is Abstraction ?
+A -> Abstraction is a process to hiding the implementation data/details from User.
+
+		Interface -> Collection of Abstract methods is called Interface. /**/ Interface is nothing but deals with client and Developer.
+
+
+Q. What is Inheritance ?
+A -> When One Class Access The Property of the Other Classes then it's Called Inheritance.
+
+        Type -> 1. Single-level Inheritance.
+                2. Multi-level Inheritance.
+                3. Hierarchical Inheritance.
+                4. Hybrid Inheritance.
+                5. Multiple Inheritance. -> Java Doesn't Support.
+
+
+Q. What is Encapsulation ?
+A -> Encapsulation in Java is a process of wrapping code and data together into a single unit.
+
+        setData() -> Set the data.
+
+        getData() -> Find the same data which already set.
+
+
+Q. What is Polymorphism ?
+A -> Same Object Having Different Behaviour Then it is called Polymorphism.
+
+		Overloading -> whenever a class contain more than one method with same name and different parameters.
+
+		Overriding -> whenever super class and sub class having same name method with same parameters.
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+****************************************************************************************************************************************************************************
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+: MULTITHREADING NOTE :
+-----------------------
+Q. What is Multithreading ?
+A -> Independently at The Same Time a Single Task Doing by Multiple Thread.
+
+
+Q. What is Multithreading Cycle ?
+A -> It is a Process to Execute The Thread or Flow of The Code.
+
+        New Born State -> Ready State -> Running State / Block State -> Dead State
+
+     1. New Born State : Thread will Create for Doing Executing the Task.
+     2. Ready State : Thread will Start Executing.
+     3. Block State : If any waiting methods will call then Thread will go Block State.
+     4. Running State : Thread Executing and Doing task.
+     5. Dead State : Stop / end the Thread Executing.
+
+
+Q. What are the Methods of The Multithreading ?
+A -> 1. Start(); -> Start Executing Thread Process.
+     2. sleep(); -> Temporarily Stop The Process for Some Time.
+     3. join(); -> Temporarily Stop The Main Thread Process and Prefer to Execute The Child Class Process.
+     4. suspend(); -> Stop The Thread Process.
+     5. resume(); -> Start The Thread Process Which was Suspended.
+     6. yield(); -> Preferred Other Thread to Execute.
+     7. stop(); -> Kill The Thread.
+     8. isAlive(); -> Checking Thread is Alive or Not And Return (True / False).
+     9. interrupt(); -> Terminate The Thread Which is in Sleep State Otherwise It's Continue The Thread Process.
+     10. getName(); / getPriority(); Getting The Value of The Name or Priority Which was Already Set in Thread.
+     11. setName(); / setPriority(); -> Setting The Value Of Name or Priority For The Thread.
+
+
+Q. What is ExecuterService ?
+A -> The ExecutorService helps in maintaining a pool of threads and assigns them tasks.
+
+        Type -> 1. SingleThreadPool();
+                2. ScheduledThreadPool();
+                3. fixedThreadPool();
+                4. cachedThreadPool();
+
+
+Q. What is CountDownLatch ?
+A -> A synchronization aid that allows one or more threads to wait until a set of operations being performed in other threads completes.
+
+
+Q. What is Semaphore ?
+A -> A semaphore is an integer variable, shared among multiple processes.
+
+
+Q. What is Volatile ?
+A -> The volatile keyword in Java is used to indicate that a variable's value may be modified by multiple threads simultaneously.
+
+
+Q. What is CyclicBarrier ?
+A ->  A synchronization aid that allows a set of threads to all wait for each other to reach a common barrier point.
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+****************************************************************************************************************************************************************************
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Q. What is Lambda Function ?
+A -> A lambda expression is a short block of code which takes in parameters and returns a value.
+
+Q. What is Method Reference ?
+A -> Method reference is used to refer method of functional interface.
+
+Q. What is Functional Interface ?
+A -> A functional interface is an interface that contains only one abstract method.
+
+Q. What is Stream API ?
+A -> A stream is an abstraction of a non-mutable collection of functions applied in some order to the data. A stream is not a collection where you can store elements.
+
+Q. What is Static Method ?
+A -> Java Interface Static Method is Similar to Default Method except That We can't Override to the Implementation Classes.
