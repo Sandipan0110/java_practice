@@ -3,31 +3,54 @@
 Q. What is Arrays ?
 A -> An array is a container object that holds a fixed number of values of a single type.
 
+       Type ->
+               1. Single-Dimensional Array
+               2. Multi-Dimensional Array
+
+
+Q. What is ArrayList ?
+A -> An ArrayList class is a resizable array, which is present in the java. util package.
+
+
+Q. What are the Difference Between Array and ArrayList ?
+A ->
+    Array :
+            1. Array is static in size.
+            2. An array can store both objects and primitives type.
+            3. An array is a fixed-length data structure.
+            4. Array can be multi-dimensional.
+
+    ArrayList :
+                1. ArrayList is dynamic in size.
+                2. We cannot store primitive type in ArrayList. It automatically converts primitive type to object.
+                3. ArrayList is a variable-length data structure. It can be resized itself when needed.
+                4. ArrayList is always single-dimensional.
+
 
 Q. What is LinkedList ?
 A -> LinkedList is a Data Structure that Contains Sequence of Elements.
 
-     Type -> 1. Singly linkedList.
+     Type ->
+             1. Singly linkedList.
              2. Doubly linkedList.
              3. Circular linkedList.
              4. Circular doubly linkedList.
 
 
 Q. What are the Difference Between ArrayList and LinkedList ?
-A -> ArrayList :
-        1. ArrayList internally uses a dynamic array to store the elements.
-        2. ArrayList is better for storing and accessing data.
-        3. Generally, when an ArrayList is initialized, a default capacity of 10 is assigned to the ArrayList.
+A ->
+    ArrayList :
+                1. ArrayList internally uses a dynamic array to store the elements.
+                2. ArrayList is better for storing and accessing data.
+                3. Generally, when an ArrayList is initialized, a default capacity of 10 is assigned to the ArrayList.
 
-     LinkedList :
-        1. LinkedList internally uses a doubly linked list to store the elements.
-        2. LinkedList is better for manipulating data.
-        3. There is no case of default capacity in a LinkedList. In LinkedList, an empty list is created when a LinkedList is initialized.
+    LinkedList :
+                1. LinkedList internally uses a doubly linked list to store the elements.
+                2. LinkedList is better for manipulating data.
+                3. There is no case of default capacity in a LinkedList. In LinkedList, an empty list is created when a LinkedList is initialized.
 
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ****************************************************************************************************************************************************************************
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 : JAVA OOPS CONCEPT NOTE :
@@ -41,7 +64,8 @@ A -> Abstraction is a process to hiding the implementation data/details from Use
 Q. What is Inheritance ?
 A -> When One Class Access The Property of the Other Classes then it's Called Inheritance.
 
-        Type -> 1. Single-level Inheritance.
+        Type ->
+                1. Single-level Inheritance.
                 2. Multi-level Inheritance.
                 3. Hierarchical Inheritance.
                 4. Hybrid Inheritance.
@@ -64,9 +88,7 @@ A -> Same Object Having Different Behaviour Then it is called Polymorphism.
 		Overriding -> whenever super class and sub class having same name method with same parameters.
 
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ****************************************************************************************************************************************************************************
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 : MULTITHREADING NOTE :
@@ -104,7 +126,8 @@ A -> 1. Start(); -> Start Executing Thread Process.
 Q. What is ExecuterService ?
 A -> The ExecutorService helps in maintaining a pool of threads and assigns them tasks.
 
-        Type -> 1. SingleThreadPool();
+        Type ->
+                1. SingleThreadPool();
                 2. ScheduledThreadPool();
                 3. fixedThreadPool();
                 4. cachedThreadPool();
@@ -126,11 +149,11 @@ Q. What is CyclicBarrier ?
 A ->  A synchronization aid that allows a set of threads to all wait for each other to reach a common barrier point.
 
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ****************************************************************************************************************************************************************************
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
+: JAVA 8 FEATURE NOTE :
+-----------------------
 Q. What is Lambda Function ?
 A -> A lambda expression is a short block of code which takes in parameters and returns a value.
 
@@ -145,3 +168,97 @@ A -> A stream is an abstraction of a non-mutable collection of functions applied
 
 Q. What is Static Method ?
 A -> Java Interface Static Method is Similar to Default Method except That We can't Override to the Implementation Classes.
+
+Q. What is Default Method ?
+A -> Default methods enable you to add new functionality to existing interfaces and ensure binary compatibility with code written for older versions of those interfaces.
+
+
+****************************************************************************************************************************************************************************
+
+
+: KAFKA :
+---------
+Q. What is Kafka ?
+A -> Kafka is an open source distributed event streaming platform. It is used to build real time streaming data pipeline and real time streaming application.
+
+
+Q. What is Producer ?
+A -> An apache kafka producer is a clint application that publishws events to a kafka cluster.
+
+
+Q. What is Kafka Cluster ?
+A -> A kafka cluster is a system that consist to several brokers, topic and partition for both.
+
+        Q1. What is Broker ?
+        A -> A kafka broker arranges transtraction between producer and consumer.
+
+
+        Q2. What is Broker Id ?
+        A -> The broker is property is the unique and permanent name of each node in kafka cluster.
+
+
+        Q3. What is Zookeeper ?
+        A -> Zookeeper is used for metadata management on the kafka world. like zookeeper keeps track of which brokers are part of the kafka cluster.
+
+
+Q. What is Consumer ?
+A -> An apache kafka consumer is a clint application that subscribe  or consume to event.
+
+
+Q. What is Group Id ?
+A -> The group id determines which consumer belong to which group.
+
+
+Q. What is Offset ?
+A -> The offset is a unique id assigned to the partition which contains messages.
+
+
+****************************************************************************************************************************************************************************
+
+
+Q. What is Tomcat ?
+A -> Apache Tomcat is a popular open source web server and Servlet container for Java code. It's a production-ready Java development tool used to implement
+     many types of Java EE specifications.
+
+
+****************************************************************************************************************************************************************************
+
+
+: SPRINGBOOT ANNOTATION :
+-------------------------
+Core Spring Framework Annotations :
+     @Required ->
+     @Autowired ->
+     @Configuration ->
+     @ComponentScans ->
+     @Bean ->
+     @Qualifier ->
+     @Lazy ->
+     @Value ->
+
+Spring Framework StereoType Annotations :
+     @Component ->
+     @Controller ->
+     @Service ->
+     @Repository ->
+
+Spring Boot Annotations :
+     @EnableAutoConfiguration ->
+     @SpringBootApplication ->
+
+Spring MVC and Rest Annotations :
+     @RequestMapping ->
+     @GetMapping ->
+     @PostMapping ->
+     @PutMapping ->
+     @DeleteMapping ->
+     @PatchMapping ->
+     @RequestBody ->
+     @ResponseBody ->
+     @PathVariable ->
+     @RequestParam ->
+     @RequestHeader ->
+     @RestController ->
+     @RequestAttribute ->
+     @CookieValue ->
+     @CrossOrigin ->

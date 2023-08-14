@@ -11,8 +11,6 @@ C
 src/practice/A.java,e/6/e6959614744c333beee7f5c59a30c90cb277e04e
 W
 'src/multithreading/MultiThreading2.java,d/6/d6fe4aeb2569a66d1b2e0fd3f73e707def8b6931
-[
-+src/multithreadingRealExample/Customer.java,1/9/19c7cf8dc87b29952c373bd062d5b4dbeeac0685
 \
 ,src/oops/abstraction/interfaces/Vehicle.java,5/4/543d87bb345801b28a75eef6df354739a490a215
 F
